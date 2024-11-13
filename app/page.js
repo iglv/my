@@ -15,36 +15,19 @@ export default function Home() {
       <p className='font-Roboto-Mono text-gray-700 text-center'>curriculum intern @ codédex</p>
       
       <section className='max-w-4xl'>
-      <div className='my-10'>
-        <a className='rounded-full border-cyan-500 hover:border-cyan-600  hover:bg-blue-100 border-2 flex justify-between py-1'>
-          <Image alt='' src={Spotify} width={80} className='rounded-full ml-1'/>
-          <button className='mx-60 font-Roboto-Mono font-medium'>
-           AUGUST VIBES: A PLAYLIST
-          </button>
-        </a>
-      </div>
-
-      <div className='mb-10'>
-        <a className='rounded-full border-cyan-500 hover:border-cyan-600 hover:bg-blue-100 border-2 flex justify-between py-1'>
-          <Image alt='' src={Substack} width={80} height={80}className='rounded-full ml-1'/>
-          <button className='mx-auto font-Roboto-Mono font-medium'>
-          the sea depths of the creative internet BLOG
-          </button>
-        </a>
-      </div>
+     
 
       <div id='button-3'>
         <a className='rounded-full border-cyan-500 hover:border-cyan-600 hover:bg-blue-100 border-2 flex justify-between py-1'>
           <Image alt='' src={Insta} width={80} className='rounded-full ml-1'/>
           <button className='mx-auto font-Roboto-Mono font-medium'>
-           MY CODING INSTAGRAM 🧚🏼‍♂️🧚🏼‍♂️
+           Copy To Markdown
           </button>
         </a>
       </div>
 
       </section>
 
-      <Image alt='' src={Jelly} width={60} height={60} className='mt-40'></Image>
     </main>
   )
 }
